@@ -1,5 +1,6 @@
 body {
-background-image: url("https://t.alcy.cc/ycy");
+    /* 可选：保留背景色作为图片加载失败时的备用 */
+    /* background-color: #f1d5da; */
     text-align: center;
     font-family: Arial, sans-serif;
     margin: 0;
@@ -8,7 +9,15 @@ background-image: url("https://t.alcy.cc/ycy");
     justify-content: center;
     align-items: center;
     height: 100vh;
+
+    /* 核心：使用外链图片作为背景 */
+    background-image: url('https://你的外链图片地址.jpg'); /* 替换为你的实际外链 */
+    background-repeat: no-repeat; /* 禁止图片重复平铺 */
+    background-position: center; /* 图片在页面居中 */
+    background-size: cover; /* 图片等比例缩放，覆盖整个页面 */
+    background-attachment: fixed; /* 可选：滚动页面时背景图固定不动 */
 }
+
 
 .container {
     width: 90%; /* 适应手机屏幕宽度 */
