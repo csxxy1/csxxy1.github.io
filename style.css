@@ -10,7 +10,6 @@ body {
     height: 100vh;
 }
 
-
 .container {
     width: 90%; /* 适应手机屏幕宽度 */
     max-width: 500px; /* 最大宽度限制 */
